@@ -1,0 +1,20 @@
+{
+  "profile": "BE",
+  "vendor": "PJNube",
+  "name": "goserver",
+  "version": "v0.0.1",
+  "architecture": "amd64",
+  "sysVersion": "0.0.0",
+  "description": "This is a Go server extension for the PJNube platform.",
+  "buildTime": "2hr",
+  "platformDependencies": {
+    "be":"this is required", 
+    "ui":"this is required"
+  },
+  "extensionDependencies": [
+    {
+        "id":"ce::pjnube::control-engine",
+        "version":"v1.0.0"
+    }
+  ]
+}
